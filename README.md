@@ -69,8 +69,8 @@ TimeChangeRule usEST = {"EST", First, Sun, Nov, 2, -300};   //UTC - 5 hours
 
 For the Central Europe time zone GMT+1 (Berlin/Warsaw), the **TimeChangeRule**s could be defined as follows:
 ```c++
-TimeChangeRule EUEDT = {"EDT", Last, Sun, Mar, 1, +60};  // Eastern Daylight Time = UTC + 1 hour
-TimeChangeRule EUEST = {"EST", Last, Sun, Oct, 1, -60};   // Eastern Standard Time = UTC - 1 hour
+TimeChangeRule EUEDT = {"EDT", Last, Sun, Mar, 1, +120};  // Summer Time = UTC + 2 hours
+TimeChangeRule EUEST = {"EST", Last, Sun, Oct, 1, +60};   // Winter Time = UTC + 1 hour
 ```
 
 ## Coding Timezone objects
